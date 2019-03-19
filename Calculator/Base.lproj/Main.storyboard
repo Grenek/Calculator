@@ -25,7 +25,7 @@
                                     <constraint firstAttribute="width" constant="170" id="Nui-c9-l68"/>
                                     <constraint firstAttribute="height" constant="85" id="X3Z-yL-q6i"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -40,7 +40,7 @@
                                     <constraint firstAttribute="width" constant="85" id="Pbh-QL-DiC"/>
                                     <constraint firstAttribute="height" constant="85" id="qBr-Po-BBI"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -55,7 +55,7 @@
                                     <constraint firstAttribute="height" constant="85" id="KbU-2e-zgS"/>
                                     <constraint firstAttribute="width" constant="85" id="wfe-oH-wjW"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="4">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -70,7 +70,7 @@
                                     <constraint firstAttribute="width" constant="85" id="kv1-Bb-zGf"/>
                                     <constraint firstAttribute="height" constant="85" id="tym-M2-51f"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="7">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -85,7 +85,7 @@
                                     <constraint firstAttribute="height" constant="85" id="Gsq-D1-ua8"/>
                                     <constraint firstAttribute="width" constant="85" id="xWx-O5-TML"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title=",">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -100,7 +100,7 @@
                                     <constraint firstAttribute="height" constant="170" id="az9-wg-WRc"/>
                                     <constraint firstAttribute="width" constant="86" id="mDv-1w-qtR"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="=">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -115,7 +115,7 @@
                                     <constraint firstAttribute="width" constant="85" id="9QK-Td-Dhw"/>
                                     <constraint firstAttribute="height" constant="85" id="Xjp-Cg-FYg"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="2">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -130,7 +130,7 @@
                                     <constraint firstAttribute="width" constant="85" id="0el-bX-lgF"/>
                                     <constraint firstAttribute="height" constant="85" id="7Pz-SX-WzN"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="5">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -145,7 +145,7 @@
                                     <constraint firstAttribute="width" constant="85" id="MXV-me-FPb"/>
                                     <constraint firstAttribute="height" constant="85" id="lAX-67-1qO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="8">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -160,7 +160,7 @@
                                     <constraint firstAttribute="height" constant="85" id="Nrz-56-Orx"/>
                                     <constraint firstAttribute="width" constant="85" id="OCc-Oy-Lnl"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="3">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -175,7 +175,7 @@
                                     <constraint firstAttribute="width" constant="85" id="2l5-Oh-UAe"/>
                                     <constraint firstAttribute="height" constant="85" id="dLZ-GJ-adg"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="6">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -190,7 +190,7 @@
                                     <constraint firstAttribute="height" constant="85" id="9eB-cC-IoA"/>
                                     <constraint firstAttribute="width" constant="85" id="CCK-Av-dGw"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="9">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -205,7 +205,7 @@
                                     <constraint firstAttribute="width" constant="86" id="R76-XN-WST"/>
                                     <constraint firstAttribute="height" constant="85" id="dg0-xC-jZd"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="+">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -220,7 +220,7 @@
                                     <constraint firstAttribute="width" constant="86" id="aEV-gR-uqE"/>
                                     <constraint firstAttribute="height" constant="85" id="oOP-34-LYD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="-">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -235,7 +235,7 @@
                                     <constraint firstAttribute="height" constant="85" id="Hbd-di-MKb"/>
                                     <constraint firstAttribute="width" constant="85" id="vI6-Up-kaA"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="÷">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -250,7 +250,7 @@
                                     <constraint firstAttribute="width" constant="170" id="egf-mD-odE"/>
                                     <constraint firstAttribute="height" constant="85" id="oug-2o-Tjt"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="Del">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -265,7 +265,7 @@
                                     <constraint firstAttribute="height" constant="85" id="0f2-Ym-6eE"/>
                                     <constraint firstAttribute="width" constant="86" id="5Zc-0Q-IPi"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <state key="normal" title="x">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -274,10 +274,10 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="taS-y7-32X">
-                                <rect key="frame" x="17" y="128" width="341" height="79"/>
+                                <rect key="frame" x="17" y="134" width="341" height="73"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="65"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="60"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>

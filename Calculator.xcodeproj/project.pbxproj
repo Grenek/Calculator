@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DDCB36A7223BC37D00941D71 /* VKPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCB36A7223BC37D00941D71 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCB36AA223BC37D00941D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDCB36AC223BC37D00941D71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DDCB36AF223BC37D00941D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		DDCB369E223BC37D00941D71 = {
 			isa = PBXGroup;
 			children = (
-				DDCB36A9223BC37D00941D71 /* VKPhotos */,
+				DDCB36A9223BC37D00941D71 /* Calculator */,
 				DDCB36A8223BC37D00941D71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		DDCB36A8223BC37D00941D71 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDCB36A7223BC37D00941D71 /* VKPhotos.app */,
+				DDCB36A7223BC37D00941D71 /* Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDCB36A9223BC37D00941D71 /* VKPhotos */ = {
+		DDCB36A9223BC37D00941D71 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
 				DDCB36AA223BC37D00941D71 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				DDCB36B9223BC38100941D71 /* Info.plist */,
 				DDCB36B1223BC37D00941D71 /* VKPhotos.xcdatamodeld */,
 			);
-			path = VKPhotos;
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DDCB36A6223BC37D00941D71 /* VKPhotos */ = {
+		DDCB36A6223BC37D00941D71 /* Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDCB36BC223BC38100941D71 /* Build configuration list for PBXNativeTarget "VKPhotos" */;
+			buildConfigurationList = DDCB36BC223BC38100941D71 /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
 				DDCB36A3223BC37D00941D71 /* Sources */,
 				DDCB36A4223BC37D00941D71 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = VKPhotos;
+			name = Calculator;
 			productName = VKPhotos;
-			productReference = DDCB36A7223BC37D00941D71 /* VKPhotos.app */;
+			productReference = DDCB36A7223BC37D00941D71 /* Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DDCB36A2223BC37D00941D71 /* Build configuration list for PBXProject "VKPhotos" */;
+			buildConfigurationList = DDCB36A2223BC37D00941D71 /* Build configuration list for PBXProject "Calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDCB36A6223BC37D00941D71 /* VKPhotos */,
+				DDCB36A6223BC37D00941D71 /* Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -293,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.grenek.VKPhotos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grenek.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.grenek.VKPhotos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grenek.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DDCB36A2223BC37D00941D71 /* Build configuration list for PBXProject "VKPhotos" */ = {
+		DDCB36A2223BC37D00941D71 /* Build configuration list for PBXProject "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDCB36BA223BC38100941D71 /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDCB36BC223BC38100941D71 /* Build configuration list for PBXNativeTarget "VKPhotos" */ = {
+		DDCB36BC223BC38100941D71 /* Build configuration list for PBXNativeTarget "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDCB36BD223BC38100941D71 /* Debug */,

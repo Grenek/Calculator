@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:VKPhotos.xcodeproj">
+      location = "self:/Users/vadim/Desktop/Apps/VKPhotos/Calculator.xcodeproj">
    </FileRef>
 </Workspace>
