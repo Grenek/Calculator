@@ -10,7 +10,7 @@
 		DDCB36AB223BC37D00941D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCB36AA223BC37D00941D71 /* AppDelegate.swift */; };
 		DDCB36AD223BC37D00941D71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCB36AC223BC37D00941D71 /* ViewController.swift */; };
 		DDCB36B0223BC37D00941D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCB36AE223BC37D00941D71 /* Main.storyboard */; };
-		DDCB36B3223BC37D00941D71 /* VKPhotos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDCB36B1223BC37D00941D71 /* VKPhotos.xcdatamodeld */; };
+		DDCB36B3223BC37D00941D71 /* Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDCB36B1223BC37D00941D71 /* Calculator.xcdatamodeld */; };
 		DDCB36B5223BC38100941D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCB36B4223BC38100941D71 /* Assets.xcassets */; };
 		DDCB36B8223BC38100941D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCB36B6223BC38100941D71 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -62,7 +62,7 @@
 				DDCB36B4223BC38100941D71 /* Assets.xcassets */,
 				DDCB36B6223BC38100941D71 /* LaunchScreen.storyboard */,
 				DDCB36B9223BC38100941D71 /* Info.plist */,
-				DDCB36B1223BC37D00941D71 /* VKPhotos.xcdatamodeld */,
+				DDCB36B1223BC37D00941D71 /* Calculator.xcdatamodeld */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDCB36AD223BC37D00941D71 /* ViewController.swift in Sources */,
-				DDCB36B3223BC37D00941D71 /* VKPhotos.xcdatamodeld in Sources */,
+				DDCB36B3223BC37D00941D71 /* Calculator.xcdatamodeld in Sources */,
 				DDCB36AB223BC37D00941D71 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +288,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DA4382JUM;
-				INFOPLIST_FILE = VKPhotos/Info.plist;
+				INFOPLIST_FILE = Calculator/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +307,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DA4382JUM;
-				INFOPLIST_FILE = VKPhotos/Info.plist;
+				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,13 +343,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DDCB36B1223BC37D00941D71 /* VKPhotos.xcdatamodeld */ = {
+		DDCB36B1223BC37D00941D71 /* Calculator.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				DDCB36B2223BC37D00941D71 /* VKPhotos.xcdatamodel */,
 			);
 			currentVersion = DDCB36B2223BC37D00941D71 /* VKPhotos.xcdatamodel */;
-			path = VKPhotos.xcdatamodeld;
+			path = Calculator.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
