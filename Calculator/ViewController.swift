@@ -40,6 +40,9 @@ class ViewController: UIViewController {
         }
     }
     
+    func wtf () {
+        label.isUserInteractionEnabled = false
+    }
     
     @IBAction func buttons(_ sender: UIButton) {
         
@@ -121,7 +124,7 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        label.isUserInteractionEnabled = false
     }
     
     
