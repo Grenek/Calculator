@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     @IBAction func buttons(_ sender: UIButton) {
         
         switch sender.tag {
-        case 11:
+        case 11: // Del button
             label.text = ""
             mathInProgress = false
             dividePressed = false
@@ -55,27 +55,32 @@ class ViewController: UIViewController {
             pointPressed = false
             previousNumber = 0
             currentNumber = 0
-        case 12:
+        case 12: // Divide button
+            guard label.text != "" else {break}
             dividePressed = true
             mathInProgress = true
             pointPressed = false
             previousNumber = Double(self.label.text!)!
-        case 13:
+        case 13: // Multiply button
+            guard label.text != "" else {break}
             multiplyPressed = true
             mathInProgress = true
             pointPressed = false
             previousNumber = Double(self.label.text!)!
-        case 14:
+        case 14: // Substract button
+            guard label.text != "" else {break}
             minusPressed = true
             mathInProgress = true
             pointPressed = false
             previousNumber = Double(self.label.text!)!
-        case 15:
+        case 15: // Add button
+            guard label.text != "" else {break}
             plusPressed = true
             mathInProgress = true
             pointPressed = false
             previousNumber = Double(self.label.text!)!
-        case 16:
+        case 16: // Equals button
+            guard label.text != "" else {break}
             currentNumber = Double(self.label.text!)!
             calculationCompleted = true
             pointPressed = false
