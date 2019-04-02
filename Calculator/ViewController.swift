@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  VKPhotos
+//  Calculator
 //
 //  Created by Вадим on 15.03.2019.
 //  Copyright © 2019 Shamratov Vadim. All rights reserved.
@@ -108,7 +108,7 @@ class ViewController: UIViewController {
             if isInteger == true {
                 label.text = String(format: "%.0f", calculatedNumber)
             } else {
-                label.text = String(round(10000000*calculatedNumber)/10000000)
+                label.text = String(round(100000*calculatedNumber)/100000)
             }
         case 17:
             pointPressed = true

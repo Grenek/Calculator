@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  VKPhotos
+//  Calculator
 //
 //  Created by Вадим on 15.03.2019.
 //  Copyright © 2019 Shamratov Vadim. All rights reserved.

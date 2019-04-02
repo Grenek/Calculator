@@ -251,7 +251,7 @@
                                     <constraint firstAttribute="height" constant="85" id="oug-2o-Tjt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
-                                <state key="normal" title="Del">
+                                <state key="normal" title="del">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
