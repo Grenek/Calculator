@@ -58,26 +58,47 @@ class ViewController: UIViewController {
             pointPressed = false
             previousNumber = 0
             currentNumber = 0
+            calculatedNumber = 0
         case 12: // Divide button
             guard label.text != "" else {break}
             dividePressed = true
+            multiplyPressed = false
+            minusPressed = false
+            plusPressed = false
             mathInProgress = true
             pointPressed = false
-            previousNumber = Double(self.label.text!)!
+            if label.text == String(round(1000000*calculatedNumber)/1000000) {
+                previousNumber = calculatedNumber
+            } else {
+               previousNumber = Double(self.label.text!)!
+            }
         case 13: // Multiply button
             guard label.text != "" else {break}
+            dividePressed = false
             multiplyPressed = true
+            minusPressed = false
+            plusPressed = false
             mathInProgress = true
             pointPressed = false
-            previousNumber = Double(self.label.text!)!
+            if label.text == String(round(1000000*calculatedNumber)/1000000) {
+                previousNumber = calculatedNumber
+            } else {
+                previousNumber = Double(self.label.text!)!
+            }
         case 14: // Substract button
             guard label.text != "" else {break}
+            dividePressed = false
+            multiplyPressed = false
             minusPressed = true
+            plusPressed = false
             mathInProgress = true
             pointPressed = false
             previousNumber = Double(self.label.text!)!
         case 15: // Add button
             guard label.text != "" else {break}
+            dividePressed = false
+            multiplyPressed = false
+            minusPressed = false
             plusPressed = true
             mathInProgress = true
             pointPressed = false
@@ -108,7 +129,7 @@ class ViewController: UIViewController {
             if isInteger == true {
                 label.text = String(format: "%.0f", calculatedNumber)
             } else {
-                label.text = String(round(100000*calculatedNumber)/100000)
+                label.text = String(round(1000000*calculatedNumber)/1000000)
             }
         case 17:
             pointPressed = true
