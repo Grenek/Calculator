@@ -40,10 +40,6 @@ class ViewController: UIViewController {
         }
     }
     
-    func wtf () {
-        label.isUserInteractionEnabled = false
-    }
-    
     @IBAction func buttons(_ sender: UIButton) {
         
         switch sender.tag {
@@ -67,10 +63,12 @@ class ViewController: UIViewController {
             plusPressed = false
             mathInProgress = true
             pointPressed = false
+            
+            // Проверка если число на экране это наш округленный calculatedNumber
             if label.text == String(round(1000000*calculatedNumber)/1000000) {
                 previousNumber = calculatedNumber
             } else {
-               previousNumber = Double(self.label.text!)!
+                previousNumber = Double(self.label.text!)!
             }
         case 13: // Multiply button
             guard label.text != "" else {break}
@@ -80,6 +78,8 @@ class ViewController: UIViewController {
             plusPressed = false
             mathInProgress = true
             pointPressed = false
+            
+            // Проверка если число на экране это наш округленный calculatedNumber
             if label.text == String(round(1000000*calculatedNumber)/1000000) {
                 previousNumber = calculatedNumber
             } else {
