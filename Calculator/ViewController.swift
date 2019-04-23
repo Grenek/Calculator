@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UITextField!
     
     @IBAction func numbers(_ sender: UIButton) {
+        // Проверка что выводить в label.text при различных условиях
         if pointPressed == true {
             label.text = label.text! + String(sender.tag-1)
         } else if calculationCompleted == true {
@@ -56,7 +57,7 @@ class ViewController: UIViewController {
             currentNumber = 0
             calculatedNumber = 0
         case 12: // Divide button
-            guard label.text != "" else {break}
+            guard label.text != "" && label.text != "." else {break}
             dividePressed = true
             multiplyPressed = false
             minusPressed = false
@@ -71,7 +72,7 @@ class ViewController: UIViewController {
                 previousNumber = Double(self.label.text!)!
             }
         case 13: // Multiply button
-            guard label.text != "" else {break}
+            guard label.text != "" && label.text != "." else {break}
             dividePressed = false
             multiplyPressed = true
             minusPressed = false
@@ -86,7 +87,7 @@ class ViewController: UIViewController {
                 previousNumber = Double(self.label.text!)!
             }
         case 14: // Substract button
-            guard label.text != "" else {break}
+            guard label.text != "" && label.text != "." else {break}
             dividePressed = false
             multiplyPressed = false
             minusPressed = true
@@ -95,7 +96,7 @@ class ViewController: UIViewController {
             pointPressed = false
             previousNumber = Double(self.label.text!)!
         case 15: // Add button
-            guard label.text != "" else {break}
+            guard label.text != "" && label.text != "." else {break}
             dividePressed = false
             multiplyPressed = false
             minusPressed = false
@@ -104,7 +105,7 @@ class ViewController: UIViewController {
             pointPressed = false
             previousNumber = Double(self.label.text!)!
         case 16: // Equals button
-            guard label.text != "" else {break}
+            guard label.text != "" && label.text != "." else {break}
             currentNumber = Double(self.label.text!)!
             calculationCompleted = true
             pointPressed = false
